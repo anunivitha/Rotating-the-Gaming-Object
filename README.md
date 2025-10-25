@@ -37,7 +37,32 @@ To add our C# Script file to our selected object, click on the C# Script file an
 Stop
 
 ## Program:
+```
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
+public class RANJIT : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.RotateAround(Vector3.left,Vector3.up,40*Time.deltaTime);
+    }
+}
+```
 ## Output:
 
+<img width="1106" height="503" alt="Screenshot 2025-09-06 092320" src="https://github.com/user-attachments/assets/317f09f6-03f3-4262-b466-dbc5b7cf32d5" />
+
 ## Result:
+```
+Thus the output for the rotating the object successfully displayed.
+
+```
