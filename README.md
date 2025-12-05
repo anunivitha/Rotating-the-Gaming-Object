@@ -2,7 +2,7 @@
 
 ## Aim:
 To develop a 3D application for rotating the gaming objects in unity.
-## Algorithm:
+## Algorithm
 ### Step1:
 Start
 ### Start2:
